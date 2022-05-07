@@ -7,7 +7,7 @@ import themoviedb from "themoviedb-javascript-library";
 
 
 function App() {
-    themoviedb.common.api_key="53252f13c3d831ec86ad621f5220a14c";
+    themoviedb.common.api_key="enter TMDB API key";
     themoviedb.common.language="uk";
   return (
     <div>
