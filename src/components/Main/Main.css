@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Water+Brush&display=swap');
+.main{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.main_wrapper{
+    min-height: 80vh;
+    border:2px solid #A8A3A3;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}

@@ -1,0 +1,51 @@
+.movies{
+    border-left:1px solid black;
+    flex: 3;
+    background-color: #444444;
+    display: flex;
+    flex-direction: column;
+}
+.movie{
+    border: 1px solid black;
+    height: 40vh;
+    padding: 1em;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+}
+.movie_title{
+    color: white;
+    font-size: 1em;
+}
+.movie_title a{
+    color: white;
+}
+.movie_title a:hover{
+    color: #de3939;
+}
+.movie_poster{
+    width: 20vh;
+    margin-top: 10px;
+}
+.movie_poster img{
+    max-width: 100%;
+}
+.movie_info{
+    display: flex;
+    flex-direction: row;
+
+}
+.movie_details{
+    color: white;
+    margin: 1em 1em;
+    flex: 4;
+
+
+}
+.movie_poster{
+    flex: 1;
+}
+.pages{
+
+    margin-left: auto;
+    margin-right: auto;
+}

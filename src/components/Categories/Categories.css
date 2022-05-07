@@ -1,0 +1,27 @@
+.categories{
+    flex: 1;
+    background-color: dimgray;
+}
+.categories_logo{
+    font-size: 1.4em;
+    color: white;
+    border-bottom: 1px solid black;
+    font-family: 'Water Brush', cursive;
+}
+.categories_logo p{
+    margin: 0.2em 1em;
+}
+.categories_list{
+    list-style-type: none;
+    margin: 1em 2em;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Water Brush', cursive;
+}
+.categories_list a{
+    font-size: 0.7em;
+    color: white;
+}
+.categories_list a:hover{
+    color: #de3939;
+}
